@@ -1,17 +1,13 @@
-//
-//  Kanji_StudyApp.swift
-//  Kanji Study
-//
-//  Created by Martin on 5/2/26.
-//
-
 import SwiftUI
 
 @main
 struct Kanji_StudyApp: App {
+    @StateObject private var store = KanjiStore.shared
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(store)
         }
     }
 }

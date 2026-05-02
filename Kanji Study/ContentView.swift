@@ -1,24 +1,19 @@
-//
-//  ContentView.swift
-//  Kanji Study
-//
-//  Created by Martin on 5/2/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        TabView {
+            BrowseView()
+                .tabItem { Label("Browse", systemImage: "list.bullet") }
 
-#Preview {
-    ContentView()
+            StudyView()
+                .tabItem { Label("Study", systemImage: "rectangle.on.rectangle") }
+
+            ProgressView()
+                .tabItem { Label("Progress", systemImage: "chart.bar") }
+
+            SettingsView()
+                .tabItem { Label("Settings", systemImage: "gearshape") }
+        }
+    }
 }
