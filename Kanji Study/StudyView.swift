@@ -277,7 +277,7 @@ struct FlashcardView: View {
         }
         if isCorrect { correctCount += 1 }
         srsResults.append((character: current.character, correct: isCorrect))
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) { advance() }
+        DispatchQueue.main.asyncAfter(deadline: .now() + (isCorrect ? 0.2 : 0.8)) { advance() }
     }
 
     private func advance() {

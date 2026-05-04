@@ -42,7 +42,7 @@ Each entry includes: character, on'yomi, kun'yomi, English meanings, JLPT level,
 ## Non-Functional Requirements
 
 ### Performance
-Flashcard transition delay is 0.2 seconds after an answer to show feedback before advancing.
+Flashcard transition delay is 0.2 seconds on a correct answer, 0.8 seconds on a wrong answer (to allow time to see the correct answer highlighted).
 
 ### Accessibility
 Answer button fonts use Dynamic Type (`.largeTitle` semantic style) to scale with user font size settings.
