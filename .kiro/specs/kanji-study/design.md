@@ -2,57 +2,59 @@
 
 ## Architecture Overview
 
-MVVM architecture with SwiftUI. Data flows from the Jisho API into local SwiftData storage, with a SRS engine managing study scheduling.
+MVVM-lite with SwiftUI + Core Data. Views observe `KanjiStore` (an `ObservableObject`) directly; no separate ViewModel layer.
 
 ```
-Views (SwiftUI) → ViewModels → Services → SwiftData / Jisho API
+Views (SwiftUI) → KanjiStore (ObservableObject) → Core Data / SRSEngine
 ```
 
 ## Tech Stack
 
-- Platform: iOS (SwiftUI)
+- Platform: iOS 16+ (SwiftUI)
 - Language: Swift
-- Persistence: SwiftData
-- Remote Data: Jisho API (https://jisho.org/api/v1/search/words)
-- Architecture: MVVM
+- Persistence: Core Data (`KanjiStudy.xcdatamodeld`)
+- Data source: Bundled `kanji.json` (generated from KANJIDIC2 via `scripts/build_kanji_json.py`)
+- Architecture: MVVM-lite
 
 ## Data Models
 
-### Kanji
+### Kanji (domain model)
 ```swift
-@Model class Kanji {
-    var id: String           // e.g. "字"
+struct Kanji: Identifiable {
+    let id: String           // the character itself
     var character: String
-    var meanings: [String]   // English meanings
-    var onyomi: [String]     // katakana readings
-    var kunyomi: [String]    // hiragana readings
+    var meanings: [String]
+    var onyomi: [String]
+    var kunyomi: [String]
     var jlptLevel: Int?      // 1–5, nil if unclassified
-    var gradeLevel: Int?     // school grade 1–8
+    var gradeLevel: Int?     // 1–8 (8 = jinmei)
     var strokeCount: Int
-    var srsInterval: Int     // days until next review
+    var srsInterval: Int
     var srsEaseFactor: Double
     var nextReviewDate: Date?
     var lastReviewedAt: Date?
 }
 ```
 
-### StudySession
+### Core Data Entities
+- `KanjiEntity` — persists all Kanji fields
+- `StudySessionEntity` — records completed sessions (date, kanjiReviewed, correctCount, totalCount)
+
+### SRS Export Record
 ```swift
-@Model class StudySession {
-    var id: UUID
-    var date: Date
-    var kanjiReviewed: [String]  // kanji character ids
-    var correctCount: Int
-    var totalCount: Int
-    var filterType: FilterType   // .grade / .jlpt / .all
-    var filterValue: Int?
+struct SRSRecord: Codable {
+    let character: String
+    let srsInterval: Int
+    let srsEaseFactor: Double
+    let nextReviewDate: Date?
+    let lastReviewedAt: Date?
 }
 ```
 
 ### StudySettings
 ```swift
 struct StudySettings: Codable {
-    var kanjiPerSession: Int     // 20 | 30 | 40 | 50, default 20
+    var kanjiPerSession: Int          // 20 | 30 | 40 | 50, default 20
     var selectedFilters: [KanjiFilter]
 }
 
@@ -70,27 +72,34 @@ ContentView (TabView)
 │   ├── FilterBar (grade / JLPT chips)
 │   └── KanjiDetailView
 ├── StudyView
-│   ├── FilterSelectionView (multi-select grade/JLPT)
-│   └── FlashcardView
-│       └── AnswerOptionsView (4 choices)
+│   ├── FilterSelectionView
+│   │   ├── StudyMode picker (Kanji→Meaning / Meaning→Kanji)
+│   │   ├── KanjiPerSession picker (20/30/40/50)
+│   │   └── Grade / JLPT filter chips
+│   ├── FlashcardView
+│   │   ├── Prompt card (kanji+readings OR meaning text)
+│   │   ├── 4× AnswerButton
+│   │   └── Quit button (nav bar) → confirmation alert
+│   └── SessionSummaryView
 ├── ProgressView
 └── SettingsView
-    ├── KanjiPerSessionPicker (20/30/40/50)
-    └── DefaultFilterSettings
+    ├── Kanji loaded (read-only)
+    ├── Export SRS Progress
+    └── Import SRS Progress
 ```
 
 ## Navigation Flow
 
-- App opens to **BrowseView** (default tab)
-- Browse: tap filter chips → list updates → tap kanji → KanjiDetailView (sheet or push)
-- Study: tap Study tab → FilterSelectionView → start session → FlashcardView loops through N kanji → summary screen → back to Study tab
-- Progress: shows SRS stats and upcoming reviews
-- Settings: accessible from tab bar
+- Study tab → `FilterSelectionView` → pick mode + filters → Start Session → `FlashcardView`
+- Completing all cards → `SessionSummaryView` (SRS + session saved) → back to filter
+- Quitting mid-session → confirmation alert → back to filter (nothing saved)
 
 ## Key Design Decisions
 
-- **Jisho API as data source**: Kanji data fetched on first launch and cached locally via SwiftData. No bundled dataset needed.
-- **Multi-select filters**: Both grade and JLPT filters can be active simultaneously; the union of matching kanji is used.
-- **4-choice quiz format**: Wrong options are randomly sampled from other kanji meanings in the current filter set.
-- **SRS on study mode**: Each flashcard answer updates `srsInterval` and `srsEaseFactor` using SM-2 algorithm.
-- **Quiz mode deferred**: Stubbed out in navigation but not implemented in v1.
+- **KANJIDIC2 as data source**: A Python script (`scripts/build_kanji_json.py`) converts KANJIDIC2 XML to `kanji.json` at build time. The app never makes network requests for kanji data.
+- **JishoEntry-compatible JSON schema**: `kanji.json` uses the same structure as the previous Jisho API responses, extended with `grade` and `stroke_count` fields, so `KanjiStore` decoding required minimal changes.
+- **Two study modes**: `StudyMode` enum drives `FlashcardView` to either show kanji→meaning or meaning→kanji layout. Options are always `[Kanji]` objects; display label is derived via `optionLabel(_:)`.
+- **Deferred SRS writes**: SRS updates are buffered in `srsResults` during a session and only flushed to Core Data on full completion. Quitting discards the buffer.
+- **Generic `AnswerButton`**: Uses a `@ViewBuilder` label closure so both plain text (kanji→meaning) and structured kanji+readings layouts (meaning→kanji) share the same button chrome.
+- **SRS export/import**: Exports only the 5 SRS fields per kanji to a timestamped JSON file. Import matches by character and updates only SRS fields, leaving kanji data intact.
+- **Dynamic Type**: Kanji character in answer buttons uses `.system(.largeTitle)` to respect user font size preferences.

@@ -88,8 +88,8 @@ class KanjiStore: ObservableObject {
                     return r
                 } as NSArray
                 entity.jlptLevel = Int16(entry.jlpt.first.flatMap { Int($0.replacingOccurrences(of: "jlpt-n", with: "")) } ?? 0)
-                entity.gradeLevel = 0
-                entity.strokeCount = 0
+                entity.gradeLevel = Int16(entry.grade ?? 0)
+                entity.strokeCount = Int16(entry.stroke_count ?? 0)
                 entity.srsInterval = 0
                 entity.srsEaseFactor = 2.5
             }
@@ -144,6 +144,56 @@ class KanjiStore: ObservableObject {
     }
 
     var studiedCount: Int { allKanji.filter { $0.lastReviewedAt != nil }.count }
+
+    // MARK: - SRS Export / Import
+
+    struct SRSRecord: Codable {
+        let character: String
+        let srsInterval: Int
+        let srsEaseFactor: Double
+        let nextReviewDate: Date?
+        let lastReviewedAt: Date?
+    }
+
+    func exportSRS() throws -> URL {
+        let records = allKanji.map {
+            SRSRecord(character: $0.character,
+                      srsInterval: $0.srsInterval,
+                      srsEaseFactor: $0.srsEaseFactor,
+                      nextReviewDate: $0.nextReviewDate,
+                      lastReviewedAt: $0.lastReviewedAt)
+        }
+        let data = try JSONEncoder().encode(records)
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyyMMdd_HHmmss"
+        let timestamp = formatter.string(from: Date())
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent("srs_progress_\(timestamp).json")
+        try data.write(to: url)
+        return url
+    }
+
+    func importSRS(from url: URL) throws {
+        _ = url.startAccessingSecurityScopedResource()
+        defer { url.stopAccessingSecurityScopedResource() }
+        let data = try Data(contentsOf: url)
+        let records = try JSONDecoder().decode([SRSRecord].self, from: data)
+        let ctx = container.viewContext
+        let request: NSFetchRequest<KanjiEntity> = KanjiEntity.fetchRequest()
+        let entities = (try? ctx.fetch(request)) ?? []
+        let entityMap = Dictionary(uniqueKeysWithValues: entities.compactMap { e -> (String, KanjiEntity)? in
+            guard let c = e.character else { return nil }
+            return (c, e)
+        })
+        for record in records {
+            guard let entity = entityMap[record.character] else { continue }
+            entity.srsInterval = Int32(record.srsInterval)
+            entity.srsEaseFactor = record.srsEaseFactor
+            entity.nextReviewDate = record.nextReviewDate
+            entity.lastReviewedAt = record.lastReviewedAt
+        }
+        try ctx.save()
+        loadFromStore()
+    }
 }
 
 // MARK: - CoreData → Domain

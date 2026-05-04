@@ -9,42 +9,47 @@
 
 ## Phase 1: Foundation
 
-- [ ] Set up SwiftData stack (ModelContainer, ModelContext)
-- [ ] Define `Kanji`, `StudySession`, `StudySettings` models
-- [ ] Implement Jisho API service (fetch kanji by JLPT/grade level)
-- [ ] Seed local SwiftData store from Jisho API on first launch
-- [ ] Implement `KanjiFilter` (grade / JLPT) and multi-select logic
+- [x] Set up Core Data stack (`KanjiStudy.xcdatamodeld`, `KanjiStore`)
+- [x] Define `Kanji`, `StudySession`, `StudySettings` models
+- [x] Implement `KanjiFilter` (grade / JLPT) and multi-select logic
+- [x] Bundle `kanji.json` and seed Core Data on first launch
+- [x] Write KANJIDIC2 → `kanji.json` conversion script (`scripts/build_kanji_json.py`)
+- [x] Add `grade` and `stroke_count` fields to `JishoEntry` and `KanjiStore.save()`
 
 ## Phase 2: Browse
 
-- [ ] Build `BrowseView` with kanji list
-- [ ] Add filter bar (grade 1–8, JLPT N1–N5 chips, multi-select)
-- [ ] Build `KanjiDetailView` (character, meanings, on'yomi, kun'yomi, stroke count)
+- [x] Build `BrowseView` with kanji list and filter chips
+- [x] Build `KanjiDetailView` (character, meanings, on'yomi, kun'yomi, stroke count)
 
 ## Phase 3: Study Mode
 
-- [ ] Build `SettingsView` with kanji-per-session picker (20/30/40/50)
-- [ ] Build `FilterSelectionView` (multi-select grade/JLPT before session)
-- [ ] Build `FlashcardView` — show kanji + readings, 4 randomized meaning choices
-- [ ] Implement answer option generation (1 correct + 3 random from filter set)
-- [ ] Show session summary screen after last card
+- [x] Build `FilterSelectionView` (study mode picker + multi-select grade/JLPT + session size)
+- [x] Build `FlashcardView` — Kanji → Meaning mode (kanji + readings prompt, 4 meaning options)
+- [x] Add Meaning → Kanji mode (meaning prompt, 4 kanji options with character + readings)
+- [x] Show up to 3 meanings per option joined by ", "
+- [x] Kanji character in answer buttons uses Dynamic Type (`.largeTitle`)
+- [x] Reduce flashcard transition delay to 0.2s
+- [x] Add Quit button with confirmation alert (returns to filter screen, no saves)
+- [x] Defer SRS writes until session fully completed
+- [x] Show session summary screen after last card
 
 ## Phase 4: SRS / Progress
 
-- [ ] Implement SM-2 algorithm to update `srsInterval` and `srsEaseFactor` on answer
-- [ ] Build `ProgressView` (stats: cards due, streak, accuracy)
-- [ ] Surface due-for-review kanji in study session
+- [x] Implement SM-2 algorithm (`SRSEngine`)
+- [x] Build `ProgressView` (cards due, studied count, upcoming reviews)
+- [x] SRS export to timestamped JSON file
+- [x] SRS import from JSON file
 
-## Phase 5: Polish
+## Phase 5: Settings
 
-- [ ] App icon and launch screen
-- [ ] Empty states (no kanji match filter, no reviews due)
-- [ ] Error handling for Jisho API failures (offline fallback)
-- [ ] Accessibility (VoiceOver labels, Dynamic Type)
+- [x] Kanji loaded count
+- [x] SRS Progress export / import
+- [ ] Reset SRS progress option
 
 ## Backlog / Future
 
-- [ ] Quiz / testing mode (deferred per requirements)
+- [ ] Expand `kanji.json` to full Jōyō list (currently filtered to grades 1–8 via KANJIDIC2)
+- [ ] Quiz / testing mode
 - [ ] iCloud sync
 - [ ] Handwriting recognition
 - [ ] Widgets (due reviews count)

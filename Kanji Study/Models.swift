@@ -62,6 +62,8 @@ struct JishoResponse: Decodable {
 struct JishoEntry: Decodable {
     let slug: String
     let jlpt: [String]
+    let grade: Int?
+    let stroke_count: Int?
     let senses: [JishoSense]
     let japanese: [JishoJapanese]
     let attribution: JishoAttribution?

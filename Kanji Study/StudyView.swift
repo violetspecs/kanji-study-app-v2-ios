@@ -1,5 +1,12 @@
 import SwiftUI
 
+// MARK: - StudyMode
+
+enum StudyMode: String, CaseIterable {
+    case kanjiToMeaning = "Kanji → Meaning"
+    case meaningToKanji = "Meaning → Kanji"
+}
+
 // MARK: - StudyView (entry point)
 
 struct StudyView: View {
@@ -8,7 +15,7 @@ struct StudyView: View {
 
     enum StudyPhase {
         case filter
-        case session([Kanji])
+        case session([Kanji], StudyMode)
         case summary(correct: Int, total: Int)
     }
 
@@ -16,11 +23,11 @@ struct StudyView: View {
         NavigationView {
             switch phase {
             case .filter:
-                FilterSelectionView { kanji in
-                    phase = .session(kanji)
+                FilterSelectionView { kanji, mode in
+                    phase = .session(kanji, mode)
                 }
-            case .session(let kanji):
-                FlashcardView(deck: kanji) { correct, total in
+            case .session(let kanji, let mode):
+                FlashcardView(deck: kanji, mode: mode, onQuit: { phase = .filter }) { correct, total in
                     phase = .summary(correct: correct, total: total)
                 }
             case .summary(let correct, let total):
@@ -36,9 +43,10 @@ struct StudyView: View {
 
 struct FilterSelectionView: View {
     @EnvironmentObject var store: KanjiStore
-    var onStart: ([Kanji]) -> Void
+    var onStart: ([Kanji], StudyMode) -> Void
 
     @State private var selectedFilters: Set<KanjiFilter> = []
+    @State private var studyMode: StudyMode = .kanjiToMeaning
     @AppStorage("kanjiPerSession") private var kanjiPerSession: Int = 20
 
     private let jlptLevels = [1, 2, 3, 4, 5]
@@ -51,6 +59,13 @@ struct FilterSelectionView: View {
 
     var body: some View {
         Form {
+            Section("Study mode") {
+                Picker("Mode", selection: $studyMode) {
+                    ForEach(StudyMode.allCases, id: \.self) { Text($0.rawValue).tag($0) }
+                }
+                .pickerStyle(.segmented)
+            }
+
             Section("Kanji per session") {
                 Picker("Count", selection: $kanjiPerSession) {
                     ForEach(sessionOptions, id: \.self) { Text("\($0)").tag($0) }
@@ -73,7 +88,7 @@ struct FilterSelectionView: View {
                     var deck = pool
                     if deck.isEmpty { deck = store.allKanji }
                     deck.shuffle()
-                    onStart(Array(deck.prefix(kanjiPerSession)))
+                    onStart(Array(deck.prefix(kanjiPerSession)), studyMode)
                 } label: {
                     HStack {
                         Spacer()
@@ -117,12 +132,16 @@ struct FilterSelectionView: View {
 struct FlashcardView: View {
     @EnvironmentObject var store: KanjiStore
     let deck: [Kanji]
+    let mode: StudyMode
+    var onQuit: () -> Void
     var onFinish: (Int, Int) -> Void
 
     @State private var index = 0
-    @State private var options: [String] = []
-    @State private var selected: String? = nil
+    @State private var options: [Kanji] = []
+    @State private var selected: String? = nil  // character for meaningToKanji, meaning string for kanjiToMeaning
     @State private var correctCount = 0
+    @State private var showQuitAlert = false
+    @State private var srsResults: [(character: String, correct: Bool)] = []
 
     private var current: Kanji { deck[index] }
 
@@ -132,20 +151,23 @@ struct FlashcardView: View {
                 .font(.caption)
                 .foregroundColor(.secondary)
 
-            // Kanji card
+            // Prompt card
             VStack(spacing: 8) {
-                Text(current.character)
-                    .font(.system(size: 96))
-
-                if !current.onyomi.isEmpty {
-                    Text(current.onyomi.joined(separator: "、"))
-                        .font(.title3)
-                        .foregroundColor(.secondary)
-                }
-                if !current.kunyomi.isEmpty {
-                    Text(current.kunyomi.joined(separator: "、"))
-                        .font(.title3)
-                        .foregroundColor(.secondary)
+                if mode == .kanjiToMeaning {
+                    Text(current.character)
+                        .font(.system(size: 96))
+                    if !current.onyomi.isEmpty {
+                        Text(current.onyomi.joined(separator: "、"))
+                            .font(.title3).foregroundColor(.secondary)
+                    }
+                    if !current.kunyomi.isEmpty {
+                        Text(current.kunyomi.joined(separator: "、"))
+                            .font(.title3).foregroundColor(.secondary)
+                    }
+                } else {
+                    Text(current.meanings.prefix(3).joined(separator: ", "))
+                        .font(.title2).bold()
+                        .multilineTextAlignment(.center)
                 }
             }
             .frame(maxWidth: .infinity)
@@ -156,12 +178,25 @@ struct FlashcardView: View {
 
             // Answer options
             VStack(spacing: 12) {
-                ForEach(options, id: \.self) { option in
-                    AnswerButton(
-                        text: option,
-                        state: buttonState(for: option),
-                        action: { select(option) }
-                    )
+                ForEach(options, id: \.character) { option in
+                    AnswerButton(state: buttonState(for: option), action: { select(option) }) {
+                        if mode == .meaningToKanji {
+                            VStack(spacing: 2) {
+                                Text(option.character)
+                                    .font(.system(.largeTitle))
+                                if !option.onyomi.isEmpty {
+                                    Text(option.onyomi.joined(separator: "、"))
+                                        .font(.caption)
+                                }
+                                if !option.kunyomi.isEmpty {
+                                    Text(option.kunyomi.joined(separator: "、"))
+                                        .font(.caption)
+                                }
+                            }
+                        } else {
+                            Text(optionLabel(option))
+                        }
+                    }
                 }
             }
             .padding(.horizontal)
@@ -171,29 +206,59 @@ struct FlashcardView: View {
         .padding(.top)
         .navigationTitle("Flashcard")
         .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button("Quit", role: .destructive) { showQuitAlert = true }
+            }
+        }
+        .alert("Quit Session?", isPresented: $showQuitAlert) {
+            Button("Quit", role: .destructive) { onQuit() }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("Progress for this session will not be saved.")
+        }
         .onAppear { buildOptions() }
     }
 
-    private func buttonState(for option: String) -> AnswerButton.State {
-        guard let sel = selected else { return .normal }
-        let correct = current.meanings.first ?? ""
-        if option == sel {
-            return option == correct ? .correct : .wrong
+    private func optionLabel(_ kanji: Kanji) -> String {
+        if mode == .kanjiToMeaning {
+            return kanji.meanings.prefix(3).joined(separator: ", ")
+        } else {
+            var parts = [kanji.character]
+            let readings = (kanji.onyomi + kanji.kunyomi).prefix(2)
+            if !readings.isEmpty { parts.append(readings.joined(separator: "、")) }
+            return parts.joined(separator: "  ")
         }
-        if option == correct { return .correct }
+    }
+
+    private func buttonState(for option: Kanji) -> AnswerButtonState {
+        guard let sel = selected else { return .normal }
+        if mode == .kanjiToMeaning {
+            let correctMeaning = current.meanings.prefix(3).joined(separator: ", ")
+            let optionMeaning = option.meanings.prefix(3).joined(separator: ", ")
+            if optionMeaning == sel { return optionMeaning == correctMeaning ? .correct : .wrong }
+            if optionMeaning == correctMeaning { return .correct }
+        } else {
+            if option.character == sel { return option.character == current.character ? .correct : .wrong }
+            if option.character == current.character { return .correct }
+        }
         return .normal
     }
 
-    private func select(_ option: String) {
+    private func select(_ option: Kanji) {
         guard selected == nil else { return }
-        selected = option
-        let isCorrect = option == (current.meanings.first ?? "")
-        if isCorrect { correctCount += 1 }
-        store.updateSRS(kanjiCharacter: current.character, correct: isCorrect)
-
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-            advance()
+        let isCorrect: Bool
+        if mode == .kanjiToMeaning {
+            let sel = option.meanings.prefix(3).joined(separator: ", ")
+            selected = sel
+            isCorrect = sel == current.meanings.prefix(3).joined(separator: ", ")
+        } else {
+            selected = option.character
+            isCorrect = option.character == current.character
         }
+        if isCorrect { correctCount += 1 }
+        srsResults.append((character: current.character, correct: isCorrect))
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) { advance() }
     }
 
     private func advance() {
@@ -202,22 +267,17 @@ struct FlashcardView: View {
             selected = nil
             buildOptions()
         } else {
+            srsResults.forEach { store.updateSRS(kanjiCharacter: $0.character, correct: $0.correct) }
             store.saveSession(kanjiCharacters: deck.map { $0.character }, correct: correctCount)
             onFinish(correctCount, deck.count)
         }
     }
 
     private func buildOptions() {
-        let correct = current.meanings.first ?? current.character
-        var pool = store.allKanji
-            .filter { $0.character != current.character }
-            .compactMap { $0.meanings.first }
+        var pool = store.allKanji.filter { $0.character != current.character }
         pool.shuffle()
-        var opts = Array(Set(pool.prefix(3)))
-        while opts.count < 3 {
-            opts.append("—")
-        }
-        opts.append(correct)
+        var opts = Array(pool.prefix(3))
+        opts.append(current)
         opts.shuffle()
         options = opts
     }
@@ -225,15 +285,16 @@ struct FlashcardView: View {
 
 // MARK: - AnswerButton
 
-struct AnswerButton: View {
-    enum State { case normal, correct, wrong }
-    let text: String
-    let state: State
+enum AnswerButtonState { case normal, correct, wrong }
+
+struct AnswerButton<Label: View>: View {
+    let state: AnswerButtonState
     let action: () -> Void
+    @ViewBuilder let label: () -> Label
 
     var body: some View {
         Button(action: action) {
-            Text(text)
+            label()
                 .frame(maxWidth: .infinity)
                 .padding()
                 .background(background)

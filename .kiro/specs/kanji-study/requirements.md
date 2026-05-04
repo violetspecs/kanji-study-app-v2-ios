@@ -2,60 +2,53 @@
 
 ## Overview
 
-<!-- Brief description of the project and its purpose -->
-
-Kanji Study is an iOS app for learning and practicing Japanese kanji characters.
+Kanji Study is an iOS app for learning and practicing Japanese kanji characters using spaced repetition.
 
 ## Functional Requirements
 
 ### 1. Kanji Browsing
-<!-- Requirements for browsing/searching kanji -->
-Browse mode allows the user to select from a list of kanji
-Can be filtered based on Grade level (whether for Grade 1,2,3 etc based on japanese system) or JLPT level
-Selecting on one displays the information about the kanji
-Information will be retrieved from https://jisho.org API
+Browse mode allows the user to select from a list of kanji.
+Can be filtered based on Grade level (Grade 1–8, including Jinmei) or JLPT level (N1–N5).
+Selecting one displays information about the kanji.
 
 ### 2. Study / Flashcard Mode
-<!-- Requirements for study sessions and flashcard functionality -->
-Users have the option to set how many kanji per study session (can be changed in a separate settings page)
-Can set 20,30,40,50 kanji per session
-Can filter to show only kanji from a specific grade or jlpt level
-Can select multiple filter options
-Study mode displays the Kanji and it's associated readings (on'yomi in katakana script, kunyomi in hiragana script)
-Then has 4 options on which meaning is correct (in english)
-The options will be randomized based on the meanings of the other Kanji (with one correct answer only)
+Users can choose a study mode before starting a session:
+- **Kanji → Meaning**: kanji character and readings are shown; user selects the correct English meaning from 4 options
+- **Meaning → Kanji**: English meaning is shown; user selects the correct kanji from 4 options (each option displays the kanji in large text with on'yomi and kun'yomi on separate lines below)
+
+Each option displays up to 3 meanings joined by ", " for the Kanji → Meaning mode.
+Can filter to show only kanji from a specific grade or JLPT level (multi-select).
+Session size is configurable (20, 30, 40, 50 kanji per session) via the filter selection screen.
+A **Quit** button is available during a session; tapping it shows a warning that progress will not be saved. Confirming returns to the filter selection screen without saving SRS updates.
+SRS updates and session history are only saved when a session is completed in full.
 
 ### 3. Progress Tracking
-<!-- Requirements for tracking user progress -->
-SRS (spaced repetition system) style of progress tracking
+SRS (spaced repetition system) style of progress tracking using the SM-2 algorithm.
+Progress view shows cards due, studied count, and upcoming reviews.
 
-### 4. Quiz / Testing
-<!-- Requirements for quizzes and self-assessment -->
-For future implementation
+### 4. Settings
+- Kanji loaded count (read-only)
+- **Export SRS Progress**: exports a JSON file named `srs_progress_<timestamp>.json` containing per-kanji SRS state
+- **Import SRS Progress**: imports a previously exported JSON file and restores SRS state for matching kanji
 
-### 5. Settings
-Different settings for the browse/study/quiz modes are placed here
+### 5. Data Source
+Kanji data is sourced from **KANJIDIC2** (Jim Breen), converted to `kanji.json` at build time using `scripts/build_kanji_json.py`.
+The script filters to Jōyō and Jinmei kanji (grades 1–8) and outputs entries in the JishoEntry-compatible JSON format.
+Each entry includes: character, on'yomi, kun'yomi, English meanings, JLPT level, school grade, and stroke count.
 
 ## Non-Functional Requirements
 
 ### Performance
-<!-- Performance expectations -->
+Flashcard transition delay is 0.2 seconds after an answer to show feedback before advancing.
 
 ### Accessibility
-<!-- Accessibility requirements -->
+Answer button fonts use Dynamic Type (`.largeTitle` semantic style) to scale with user font size settings.
 
 ### Offline Support
-The app must function fully offline after installation.
-Kanji data is bundled as a JSON file (`kanji.json`) in the app bundle and seeded into CoreData on first launch — no network request required.
-The bundled dataset must cover all **2,136 Jōyō kanji** (常用漢字), including:
-- JLPT N5 (~80 kanji)
-- JLPT N4 (~170 kanji)
-- JLPT N3 (~370 kanji)
-- JLPT N2 (~380 kanji)
-- JLPT N1 (~1,136 kanji)
-Each entry must include: character, on'yomi readings, kun'yomi readings, English meanings, and JLPT level.
-The current bundled dataset (~701 kanji) is a placeholder and must be expanded to the full Jōyō list in a future update.
+The app functions fully offline. Kanji data is bundled as `kanji.json` and seeded into Core Data on first launch.
 
 ## Out of Scope
-
-<!-- Features explicitly not included in this version -->
+- Quiz / testing mode (deferred)
+- iCloud sync
+- Handwriting recognition
+- Widgets
