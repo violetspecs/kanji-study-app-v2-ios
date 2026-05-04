@@ -26,3 +26,15 @@ An iOS app for studying Japanese kanji using spaced repetition (SM-2 algorithm).
 1. Open `Kanji Study.xcodeproj` in Xcode
 2. Select a simulator or device
 3. Build and run (`⌘R`)
+
+## Updating Kanji Data
+
+Kanji data is bundled as `Kanji Study/kanji.json`, generated from [KANJIDIC2](https://www.edrdg.org/kanjidic/kanjidic2.xml.gz). To regenerate it:
+
+```bash
+cd scripts
+python3 build_kanji_json.py              # auto-downloads kanjidic2.xml.gz
+python3 build_kanji_json.py kanjidic2.xml  # or use a local file
+```
+
+See `scripts/README.md` for details.
