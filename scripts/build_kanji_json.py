@@ -19,6 +19,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 KANJIDIC2_URL = "http://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+JLPT_MAP_URL = "https://raw.githubusercontent.com/davidluzgouveia/kanji-data/master/kanji.json"
 OUTPUT_PATH = Path(__file__).parent.parent / "Kanji Study" / "kanji.json"
 
 
@@ -31,7 +32,14 @@ def fetch_kanjidic2() -> bytes:
         return r.read()
 
 
-def parse(data: bytes) -> list[dict]:
+def fetch_jlpt_map() -> dict[str, int]:
+    print(f"Downloading JLPT map from davidluzgouveia/kanji-data...")
+    with urllib.request.urlopen(JLPT_MAP_URL) as r:
+        data = json.loads(r.read())
+    return {char: entry["jlpt_new"] for char, entry in data.items() if "jlpt_new" in entry}
+
+
+def parse(data: bytes, jlpt_map: dict[str, int]) -> list[dict]:
     xml = gzip.decompress(data) if data[:2] == b'\x1f\x8b' else data
     root = ET.fromstring(xml)
     entries = []
@@ -54,9 +62,11 @@ def parse(data: bytes) -> list[dict]:
         stroke_el = misc.find("stroke_count")
         stroke_count = int(stroke_el.text) if stroke_el is not None else 0
 
-        # JLPT level
-        jlpt_el = misc.find("jlpt")
-        jlpt_level = int(jlpt_el.text) if jlpt_el is not None else None
+        # JLPT level: prefer community map (post-2010), fall back to KANJIDIC2
+        jlpt_level = jlpt_map.get(literal)
+        if jlpt_level is None:
+            jlpt_el = misc.find("jlpt")
+            jlpt_level = int(jlpt_el.text) if jlpt_el is not None else None
 
         # Readings
         reading_meaning = char.find("reading_meaning")
@@ -104,7 +114,8 @@ def parse(data: bytes) -> list[dict]:
 
 def main():
     data = fetch_kanjidic2()
-    entries = parse(data)
+    jlpt_map = fetch_jlpt_map()
+    entries = parse(data, jlpt_map)
     print(f"Parsed {len(entries)} joyo/jinmei kanji")
     OUTPUT_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2))
     print(f"Written to {OUTPUT_PATH}")

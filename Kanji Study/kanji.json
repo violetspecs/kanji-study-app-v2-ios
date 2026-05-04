@@ -76,7 +76,7 @@
   {
     "slug": "愛",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 13,
@@ -152,7 +152,7 @@
   {
     "slug": "悪",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -485,7 +485,7 @@
   {
     "slug": "案",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -561,7 +561,7 @@
   {
     "slug": "以",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -593,7 +593,7 @@
   {
     "slug": "位",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -668,7 +668,7 @@
   {
     "slug": "偉",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 12,
@@ -852,7 +852,7 @@
   {
     "slug": "意",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 13,
@@ -923,7 +923,7 @@
   {
     "slug": "易",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -1095,7 +1095,7 @@
   {
     "slug": "異",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -1356,7 +1356,7 @@
   {
     "slug": "違",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 13,
@@ -1441,7 +1441,7 @@
   {
     "slug": "医",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -1544,7 +1544,7 @@
   {
     "slug": "育",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -1588,7 +1588,7 @@
   {
     "slug": "一",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 1,
@@ -1907,7 +1907,7 @@
   {
     "slug": "員",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -1935,7 +1935,7 @@
   {
     "slug": "因",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 6,
@@ -2120,7 +2120,7 @@
   {
     "slug": "院",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -2261,7 +2261,7 @@
   {
     "slug": "右",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -2360,7 +2360,7 @@
   {
     "slug": "雨",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 8,
@@ -2531,7 +2531,7 @@
   {
     "slug": "運",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -2713,7 +2713,7 @@
   {
     "slug": "映",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 6,
     "stroke_count": 9,
@@ -2840,7 +2840,7 @@
   {
     "slug": "泳",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -2869,7 +2869,7 @@
   {
     "slug": "英",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -3182,7 +3182,7 @@
   {
     "slug": "越",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 12,
@@ -3266,7 +3266,7 @@
   {
     "slug": "円",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -3313,7 +3313,7 @@
   {
     "slug": "園",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 13,
@@ -3526,7 +3526,7 @@
   {
     "slug": "演",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -3586,7 +3586,7 @@
   {
     "slug": "煙",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 13,
@@ -4057,7 +4057,7 @@
   {
     "slug": "応",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -4107,7 +4107,7 @@
   {
     "slug": "押",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 8,
@@ -4194,7 +4194,7 @@
   {
     "slug": "横",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 15,
@@ -4294,7 +4294,7 @@
   {
     "slug": "王",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -4489,7 +4489,7 @@
   {
     "slug": "屋",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -4805,7 +4805,7 @@
   {
     "slug": "音",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 9,
@@ -4847,7 +4847,7 @@
   {
     "slug": "下",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -4929,7 +4929,7 @@
   {
     "slug": "化",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 4,
@@ -4979,7 +4979,7 @@
   {
     "slug": "仮",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 6,
@@ -5020,7 +5020,7 @@
   {
     "slug": "何",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -5061,7 +5061,7 @@
   {
     "slug": "価",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -5124,7 +5124,7 @@
   {
     "slug": "加",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -5201,7 +5201,7 @@
   {
     "slug": "夏",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -5280,7 +5280,7 @@
   {
     "slug": "家",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -5353,7 +5353,7 @@
   {
     "slug": "科",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -5417,7 +5417,7 @@
   {
     "slug": "果",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -5511,7 +5511,7 @@
   {
     "slug": "歌",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 14,
@@ -5574,7 +5574,7 @@
   {
     "slug": "火",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -5945,7 +5945,7 @@
   {
     "slug": "過",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -6108,7 +6108,7 @@
   {
     "slug": "画",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -6361,7 +6361,7 @@
   {
     "slug": "解",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 13,
@@ -6887,7 +6887,7 @@
   {
     "slug": "海",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -6948,7 +6948,7 @@
   {
     "slug": "界",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -6974,7 +6974,7 @@
   {
     "slug": "皆",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 9,
@@ -7008,7 +7008,7 @@
   {
     "slug": "絵",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 12,
@@ -7040,7 +7040,7 @@
   {
     "slug": "開",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -7177,7 +7177,7 @@
   {
     "slug": "外",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -7226,7 +7226,7 @@
   {
     "slug": "害",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -7662,7 +7662,7 @@
   {
     "slug": "拡",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 8,
@@ -7706,7 +7706,7 @@
   {
     "slug": "格",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -7852,7 +7852,7 @@
   {
     "slug": "確",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 15,
@@ -7922,7 +7922,7 @@
   {
     "slug": "覚",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -8004,7 +8004,7 @@
   {
     "slug": "較",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 8,
     "stroke_count": 13,
@@ -8166,7 +8166,7 @@
   {
     "slug": "学",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 8,
@@ -8228,7 +8228,7 @@
   {
     "slug": "楽",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 13,
@@ -8343,7 +8343,7 @@
   {
     "slug": "掛",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 11,
@@ -8458,7 +8458,7 @@
   {
     "slug": "割",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 12,
@@ -8566,7 +8566,7 @@
   {
     "slug": "活",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -9311,7 +9311,7 @@
   {
     "slug": "完",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -9338,7 +9338,7 @@
   {
     "slug": "官",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -9486,7 +9486,7 @@
   {
     "slug": "患",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n2"
     ],
     "grade": 8,
     "stroke_count": 11,
@@ -9518,7 +9518,7 @@
   {
     "slug": "感",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 13,
@@ -9545,7 +9545,7 @@
   {
     "slug": "慣",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -9810,7 +9810,7 @@
   {
     "slug": "漢",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 13,
@@ -9836,7 +9836,7 @@
   {
     "slug": "環",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 8,
     "stroke_count": 17,
@@ -9941,7 +9941,7 @@
   {
     "slug": "看",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 9,
@@ -10089,7 +10089,7 @@
   {
     "slug": "缶",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n2"
     ],
     "grade": 8,
     "stroke_count": 6,
@@ -10177,7 +10177,7 @@
   {
     "slug": "観",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 18,
@@ -10319,7 +10319,7 @@
   {
     "slug": "間",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 12,
@@ -10386,7 +10386,7 @@
   {
     "slug": "関",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 14,
@@ -10503,7 +10503,7 @@
   {
     "slug": "館",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 16,
@@ -10815,7 +10815,7 @@
   {
     "slug": "願",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 19,
@@ -10927,7 +10927,7 @@
   {
     "slug": "危",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 6,
@@ -10966,7 +10966,7 @@
   {
     "slug": "喜",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -11000,7 +11000,7 @@
   {
     "slug": "器",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 15,
@@ -11037,7 +11037,7 @@
   {
     "slug": "基",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -11116,7 +11116,7 @@
   {
     "slug": "寄",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -11238,7 +11238,7 @@
   {
     "slug": "幾",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 12,
@@ -11445,7 +11445,7 @@
   {
     "slug": "期",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -11542,7 +11542,7 @@
   {
     "slug": "機",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 16,
@@ -11578,7 +11578,7 @@
   {
     "slug": "帰",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -11622,7 +11622,7 @@
   {
     "slug": "気",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -11802,7 +11802,7 @@
   {
     "slug": "規",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -11828,7 +11828,7 @@
   {
     "slug": "記",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -11904,7 +11904,7 @@
   {
     "slug": "起",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -12430,7 +12430,7 @@
   {
     "slug": "疑",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 14,
@@ -12492,7 +12492,7 @@
   {
     "slug": "議",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 20,
@@ -12709,7 +12709,7 @@
   {
     "slug": "客",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -12920,7 +12920,7 @@
   {
     "slug": "休",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -13004,7 +13004,7 @@
   {
     "slug": "吸",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 6,
@@ -13110,7 +13110,7 @@
   {
     "slug": "急",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -13150,7 +13150,7 @@
   {
     "slug": "救",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -13214,7 +13214,7 @@
   {
     "slug": "求",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -13251,7 +13251,7 @@
   {
     "slug": "泣",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -13282,7 +13282,7 @@
   {
     "slug": "球",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -13312,7 +13312,7 @@
   {
     "slug": "究",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -13395,7 +13395,7 @@
   {
     "slug": "級",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -13454,7 +13454,7 @@
   {
     "slug": "給",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -13533,7 +13533,7 @@
   {
     "slug": "牛",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -13562,7 +13562,7 @@
   {
     "slug": "去",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -13605,7 +13605,7 @@
   {
     "slug": "居",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -13832,7 +13832,7 @@
   {
     "slug": "許",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -14011,7 +14011,7 @@
   {
     "slug": "京",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -14049,7 +14049,7 @@
   {
     "slug": "供",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 8,
@@ -14149,7 +14149,7 @@
   {
     "slug": "共",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 6,
@@ -14346,7 +14346,7 @@
   {
     "slug": "強",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -14395,7 +14395,7 @@
   {
     "slug": "恐",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -14518,7 +14518,7 @@
   {
     "slug": "教",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -14660,7 +14660,7 @@
   {
     "slug": "狭",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 8,
     "stroke_count": 9,
@@ -15140,7 +15140,7 @@
   {
     "slug": "業",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 13,
@@ -15176,7 +15176,7 @@
   {
     "slug": "局",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -15212,7 +15212,7 @@
   {
     "slug": "曲",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -15394,7 +15394,7 @@
   {
     "slug": "勤",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 12,
@@ -15796,7 +15796,7 @@
   {
     "slug": "近",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -15832,7 +15832,7 @@
   {
     "slug": "金",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 8,
@@ -15904,7 +15904,7 @@
   {
     "slug": "銀",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 14,
@@ -15933,7 +15933,7 @@
   {
     "slug": "九",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -16000,7 +16000,7 @@
   {
     "slug": "区",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 3,
     "stroke_count": 4,
@@ -16034,7 +16034,7 @@
   {
     "slug": "苦",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -16157,7 +16157,7 @@
   {
     "slug": "具",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -16350,7 +16350,7 @@
   {
     "slug": "偶",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 11,
@@ -16594,7 +16594,7 @@
   {
     "slug": "靴",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 13,
@@ -16745,7 +16745,7 @@
   {
     "slug": "君",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -16966,7 +16966,7 @@
   {
     "slug": "係",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -17090,7 +17090,7 @@
   {
     "slug": "兄",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -17225,7 +17225,7 @@
   {
     "slug": "形",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -17315,7 +17315,7 @@
   {
     "slug": "恵",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -17530,7 +17530,7 @@
   {
     "slug": "景",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -17648,7 +17648,7 @@
   {
     "slug": "経",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -17806,7 +17806,7 @@
   {
     "slug": "計",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -17887,7 +17887,7 @@
   {
     "slug": "警",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 19,
@@ -17917,7 +17917,7 @@
   {
     "slug": "軽",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -18044,7 +18044,7 @@
   {
     "slug": "迎",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 7,
@@ -18306,7 +18306,7 @@
   {
     "slug": "欠",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 4,
@@ -18346,7 +18346,7 @@
   {
     "slug": "決",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -18456,7 +18456,7 @@
   {
     "slug": "結",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -18532,7 +18532,7 @@
   {
     "slug": "月",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -18566,7 +18566,7 @@
   {
     "slug": "件",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 6,
@@ -18633,7 +18633,7 @@
   {
     "slug": "健",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 11,
@@ -18871,7 +18871,7 @@
   {
     "slug": "建",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -19017,7 +19017,7 @@
   {
     "slug": "検",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -19047,7 +19047,7 @@
   {
     "slug": "権",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 15,
@@ -19090,7 +19090,7 @@
   {
     "slug": "犬",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -19159,7 +19159,7 @@
   {
     "slug": "研",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -19219,7 +19219,7 @@
   {
     "slug": "県",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -19277,7 +19277,7 @@
   {
     "slug": "見",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 7,
@@ -19493,7 +19493,7 @@
   {
     "slug": "険",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -19560,7 +19560,7 @@
   {
     "slug": "験",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 18,
@@ -19607,7 +19607,7 @@
   {
     "slug": "元",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -19642,7 +19642,7 @@
   {
     "slug": "原",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -19895,7 +19895,7 @@
   {
     "slug": "現",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -20007,7 +20007,7 @@
   {
     "slug": "限",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 9,
@@ -20113,7 +20113,7 @@
   {
     "slug": "呼",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 8,
@@ -20347,7 +20347,7 @@
   {
     "slug": "故",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 9,
@@ -20645,7 +20645,7 @@
   {
     "slug": "五",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -20678,7 +20678,7 @@
   {
     "slug": "互",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 4,
@@ -20713,7 +20713,7 @@
   {
     "slug": "午",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -20806,7 +20806,7 @@
   {
     "slug": "後",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -20857,7 +20857,7 @@
   {
     "slug": "御",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 12,
@@ -20958,7 +20958,7 @@
   {
     "slug": "語",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 14,
@@ -20993,7 +20993,7 @@
   {
     "slug": "誤",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 14,
@@ -21104,7 +21104,7 @@
   {
     "slug": "交",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -21199,7 +21199,7 @@
   {
     "slug": "候",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -21266,7 +21266,7 @@
   {
     "slug": "公",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -21488,7 +21488,7 @@
   {
     "slug": "向",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -21766,7 +21766,7 @@
   {
     "slug": "工",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 3,
@@ -21840,7 +21840,7 @@
   {
     "slug": "幸",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -21879,7 +21879,7 @@
   {
     "slug": "広",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -21926,7 +21926,7 @@
   {
     "slug": "康",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 11,
@@ -22155,7 +22155,7 @@
   {
     "slug": "更",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 7,
@@ -22204,7 +22204,7 @@
   {
     "slug": "校",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 10,
@@ -22278,7 +22278,7 @@
   {
     "slug": "構",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -22373,7 +22373,7 @@
   {
     "slug": "港",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -22714,7 +22714,7 @@
   {
     "slug": "考",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -22859,7 +22859,7 @@
   {
     "slug": "行",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -23157,7 +23157,7 @@
   {
     "slug": "降",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 10,
@@ -23289,7 +23289,7 @@
   {
     "slug": "高",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -23362,7 +23362,7 @@
   {
     "slug": "号",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -23563,7 +23563,7 @@
   {
     "slug": "刻",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 8,
@@ -23602,7 +23602,7 @@
   {
     "slug": "告",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -23634,7 +23634,7 @@
   {
     "slug": "国",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -23721,7 +23721,7 @@
   {
     "slug": "黒",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -23848,7 +23848,7 @@
   {
     "slug": "込",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 5,
@@ -23934,7 +23934,7 @@
   {
     "slug": "今",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -23967,7 +23967,7 @@
   {
     "slug": "困",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 7,
@@ -24032,7 +24032,7 @@
   {
     "slug": "婚",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 11,
@@ -24386,7 +24386,7 @@
   {
     "slug": "左",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -24419,7 +24419,7 @@
   {
     "slug": "差",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -24619,7 +24619,7 @@
   {
     "slug": "座",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 10,
@@ -24787,7 +24787,7 @@
   {
     "slug": "最",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -24869,7 +24869,7 @@
   {
     "slug": "妻",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -24957,7 +24957,7 @@
   {
     "slug": "才",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 3,
@@ -25042,7 +25042,7 @@
   {
     "slug": "歳",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 13,
@@ -25086,7 +25086,7 @@
   {
     "slug": "済",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -25411,7 +25411,7 @@
   {
     "slug": "菜",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 4,
     "stroke_count": 11,
@@ -25518,7 +25518,7 @@
   {
     "slug": "際",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -25602,7 +25602,7 @@
   {
     "slug": "在",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 6,
@@ -25665,7 +25665,7 @@
   {
     "slug": "罪",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 13,
@@ -25699,7 +25699,7 @@
   {
     "slug": "財",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -25908,7 +25908,7 @@
   {
     "slug": "作",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -26022,7 +26022,7 @@
   {
     "slug": "昨",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -26293,7 +26293,7 @@
   {
     "slug": "察",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 14,
@@ -26471,7 +26471,7 @@
   {
     "slug": "殺",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -26527,7 +26527,7 @@
   {
     "slug": "雑",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -26595,7 +26595,7 @@
   {
     "slug": "三",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -26665,7 +26665,7 @@
   {
     "slug": "参",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -26720,7 +26720,7 @@
   {
     "slug": "山",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -26797,7 +26797,7 @@
   {
     "slug": "散",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -27011,7 +27011,7 @@
   {
     "slug": "賛",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 15,
@@ -27153,7 +27153,7 @@
   {
     "slug": "残",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -27200,7 +27200,7 @@
   {
     "slug": "仕",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -27270,7 +27270,7 @@
   {
     "slug": "使",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -27367,7 +27367,7 @@
   {
     "slug": "司",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -27452,7 +27452,7 @@
   {
     "slug": "四",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -27525,7 +27525,7 @@
   {
     "slug": "始",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -27563,7 +27563,7 @@
   {
     "slug": "姉",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -27627,7 +27627,7 @@
   {
     "slug": "子",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -27706,7 +27706,7 @@
   {
     "slug": "師",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -27741,7 +27741,7 @@
   {
     "slug": "志",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -27784,7 +27784,7 @@
   {
     "slug": "思",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -27821,7 +27821,7 @@
   {
     "slug": "指",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -27863,7 +27863,7 @@
   {
     "slug": "支",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 4,
@@ -28011,7 +28011,7 @@
   {
     "slug": "止",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -28093,7 +28093,7 @@
   {
     "slug": "死",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -28188,7 +28188,7 @@
   {
     "slug": "私",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 6,
     "stroke_count": 7,
@@ -28252,7 +28252,7 @@
   {
     "slug": "紙",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -28499,7 +28499,7 @@
   {
     "slug": "試",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 13,
@@ -28591,7 +28591,7 @@
   {
     "slug": "資",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 13,
@@ -28732,7 +28732,7 @@
   {
     "slug": "歯",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -28774,7 +28774,7 @@
   {
     "slug": "事",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -28820,7 +28820,7 @@
   {
     "slug": "似",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -28944,7 +28944,7 @@
   {
     "slug": "字",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -29042,7 +29042,7 @@
   {
     "slug": "持",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -29080,7 +29080,7 @@
   {
     "slug": "時",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -29114,7 +29114,7 @@
   {
     "slug": "次",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -29186,7 +29186,7 @@
   {
     "slug": "治",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -29291,7 +29291,7 @@
   {
     "slug": "示",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 5,
@@ -29328,7 +29328,7 @@
   {
     "slug": "耳",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n3"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -29357,7 +29357,7 @@
   {
     "slug": "自",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -29398,7 +29398,7 @@
   {
     "slug": "辞",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 13,
@@ -29467,7 +29467,7 @@
   {
     "slug": "式",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -29499,7 +29499,7 @@
   {
     "slug": "識",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 19,
@@ -29563,7 +29563,7 @@
   {
     "slug": "七",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -29636,7 +29636,7 @@
   {
     "slug": "失",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -29709,7 +29709,7 @@
   {
     "slug": "室",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -29849,7 +29849,7 @@
   {
     "slug": "質",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 5,
     "stroke_count": 15,
@@ -29901,7 +29901,7 @@
   {
     "slug": "実",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -30021,7 +30021,7 @@
   {
     "slug": "写",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -30282,7 +30282,7 @@
   {
     "slug": "者",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -30343,7 +30343,7 @@
   {
     "slug": "車",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 7,
@@ -30477,7 +30477,7 @@
   {
     "slug": "借",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -30647,7 +30647,7 @@
   {
     "slug": "若",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 8,
@@ -30758,7 +30758,7 @@
   {
     "slug": "弱",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -30800,7 +30800,7 @@
   {
     "slug": "主",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -30849,7 +30849,7 @@
   {
     "slug": "取",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -30896,7 +30896,7 @@
   {
     "slug": "守",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -31127,7 +31127,7 @@
   {
     "slug": "種",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 14,
@@ -31247,7 +31247,7 @@
   {
     "slug": "酒",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -31336,7 +31336,7 @@
   {
     "slug": "受",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -31480,7 +31480,7 @@
   {
     "slug": "授",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -31608,7 +31608,7 @@
   {
     "slug": "収",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 4,
@@ -31791,7 +31791,7 @@
   {
     "slug": "修",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -31936,7 +31936,7 @@
   {
     "slug": "秋",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -31969,7 +31969,7 @@
   {
     "slug": "終",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -32019,7 +32019,7 @@
   {
     "slug": "習",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -32312,7 +32312,7 @@
   {
     "slug": "集",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -32389,7 +32389,7 @@
   {
     "slug": "住",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -32471,7 +32471,7 @@
   {
     "slug": "十",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -32769,7 +32769,7 @@
   {
     "slug": "重",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -32889,7 +32889,7 @@
   {
     "slug": "宿",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -33140,7 +33140,7 @@
   {
     "slug": "出",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -33198,7 +33198,7 @@
   {
     "slug": "術",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -33292,7 +33292,7 @@
   {
     "slug": "春",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -33715,7 +33715,7 @@
   {
     "slug": "処",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 5,
@@ -33759,7 +33759,7 @@
   {
     "slug": "初",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -33855,7 +33855,7 @@
   {
     "slug": "暑",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n1"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -33913,7 +33913,7 @@
   {
     "slug": "緒",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 14,
@@ -33983,7 +33983,7 @@
   {
     "slug": "書",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -34052,7 +34052,7 @@
   {
     "slug": "助",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -34131,7 +34131,7 @@
   {
     "slug": "女",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -34244,7 +34244,7 @@
   {
     "slug": "除",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 10,
@@ -34364,7 +34364,7 @@
   {
     "slug": "勝",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -34511,7 +34511,7 @@
   {
     "slug": "商",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -34698,7 +34698,7 @@
   {
     "slug": "小",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -34939,7 +34939,7 @@
   {
     "slug": "招",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -35151,7 +35151,7 @@
   {
     "slug": "消",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -35612,7 +35612,7 @@
   {
     "slug": "笑",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -36017,7 +36017,7 @@
   {
     "slug": "上",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -36299,7 +36299,7 @@
   {
     "slug": "場",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 12,
@@ -36396,7 +36396,7 @@
   {
     "slug": "常",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -36436,7 +36436,7 @@
   {
     "slug": "情",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -36474,7 +36474,7 @@
   {
     "slug": "条",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -36562,7 +36562,7 @@
   {
     "slug": "状",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -36997,7 +36997,7 @@
   {
     "slug": "職",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 18,
@@ -37028,7 +37028,7 @@
   {
     "slug": "色",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -37104,7 +37104,7 @@
   {
     "slug": "食",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -37256,7 +37256,7 @@
   {
     "slug": "信",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -37372,7 +37372,7 @@
   {
     "slug": "寝",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 13,
@@ -37456,7 +37456,7 @@
   {
     "slug": "心",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -37617,7 +37617,7 @@
   {
     "slug": "森",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 1,
     "stroke_count": 12,
@@ -37690,7 +37690,7 @@
   {
     "slug": "深",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -37738,7 +37738,7 @@
   {
     "slug": "申",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -37778,7 +37778,7 @@
   {
     "slug": "真",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -37817,7 +37817,7 @@
   {
     "slug": "神",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -37975,7 +37975,7 @@
   {
     "slug": "親",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 16,
@@ -38240,7 +38240,7 @@
   {
     "slug": "人",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -38657,7 +38657,7 @@
   {
     "slug": "図",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -38698,7 +38698,7 @@
   {
     "slug": "吹",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 7,
@@ -38840,7 +38840,7 @@
   {
     "slug": "水",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -39188,7 +39188,7 @@
   {
     "slug": "数",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 13,
@@ -39465,7 +39465,7 @@
   {
     "slug": "世",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -39672,7 +39672,7 @@
   {
     "slug": "制",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -39794,7 +39794,7 @@
   {
     "slug": "性",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -39829,7 +39829,7 @@
   {
     "slug": "成",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 6,
@@ -39875,7 +39875,7 @@
   {
     "slug": "政",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 9,
@@ -39913,7 +39913,7 @@
   {
     "slug": "整",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 3,
     "stroke_count": 16,
@@ -39991,7 +39991,7 @@
   {
     "slug": "晴",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 12,
@@ -40036,7 +40036,7 @@
   {
     "slug": "正",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -40159,7 +40159,7 @@
   {
     "slug": "生",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -40305,7 +40305,7 @@
   {
     "slug": "精",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -40424,7 +40424,7 @@
   {
     "slug": "製",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -40450,7 +40450,7 @@
   {
     "slug": "西",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -40663,7 +40663,7 @@
   {
     "slug": "青",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 8,
@@ -40705,7 +40705,7 @@
   {
     "slug": "静",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 14,
@@ -40828,7 +40828,7 @@
   {
     "slug": "隻",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n2"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -40858,7 +40858,7 @@
   {
     "slug": "席",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -41001,7 +41001,7 @@
   {
     "slug": "昔",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -41064,7 +41064,7 @@
   {
     "slug": "石",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -41101,7 +41101,7 @@
   {
     "slug": "積",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 16,
@@ -41149,7 +41149,7 @@
   {
     "slug": "籍",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n2"
     ],
     "grade": 8,
     "stroke_count": 20,
@@ -41236,7 +41236,7 @@
   {
     "slug": "責",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -41267,7 +41267,7 @@
   {
     "slug": "赤",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 7,
@@ -41316,7 +41316,7 @@
   {
     "slug": "跡",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n2"
     ],
     "grade": 8,
     "stroke_count": 13,
@@ -41348,7 +41348,7 @@
   {
     "slug": "切",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -41531,7 +41531,7 @@
   {
     "slug": "折",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -41653,7 +41653,7 @@
   {
     "slug": "節",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 13,
@@ -41743,7 +41743,7 @@
   {
     "slug": "雪",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -41772,7 +41772,7 @@
   {
     "slug": "絶",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -41880,7 +41880,7 @@
   {
     "slug": "先",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -41917,7 +41917,7 @@
   {
     "slug": "千",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -42049,7 +42049,7 @@
   {
     "slug": "川",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -42080,7 +42080,7 @@
   {
     "slug": "戦",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 13,
@@ -42564,7 +42564,7 @@
   {
     "slug": "船",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -42702,7 +42702,7 @@
   {
     "slug": "選",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 15,
@@ -42853,7 +42853,7 @@
   {
     "slug": "前",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -42887,7 +42887,7 @@
   {
     "slug": "善",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 12,
@@ -42974,7 +42974,7 @@
   {
     "slug": "然",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -43023,7 +43023,7 @@
   {
     "slug": "全",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -43398,7 +43398,7 @@
   {
     "slug": "祖",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 9,
@@ -43523,7 +43523,7 @@
   {
     "slug": "組",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -43980,7 +43980,7 @@
   {
     "slug": "想",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 13,
@@ -44125,7 +44125,7 @@
   {
     "slug": "操",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 16,
@@ -44168,7 +44168,7 @@
   {
     "slug": "早",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -44352,7 +44352,7 @@
   {
     "slug": "争",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 6,
@@ -44426,7 +44426,7 @@
   {
     "slug": "相",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -44467,7 +44467,7 @@
   {
     "slug": "窓",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -44550,7 +44550,7 @@
   {
     "slug": "草",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 1,
     "stroke_count": 9,
@@ -44740,7 +44740,7 @@
   {
     "slug": "走",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -44769,7 +44769,7 @@
   {
     "slug": "送",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -44936,7 +44936,7 @@
   {
     "slug": "増",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -45210,7 +45210,7 @@
   {
     "slug": "側",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 11,
@@ -45333,7 +45333,7 @@
   {
     "slug": "息",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -45399,7 +45399,7 @@
   {
     "slug": "束",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -45522,7 +45522,7 @@
   {
     "slug": "速",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -45665,7 +45665,7 @@
   {
     "slug": "族",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -45691,7 +45691,7 @@
   {
     "slug": "続",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 13,
@@ -45824,7 +45824,7 @@
   {
     "slug": "存",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 6,
@@ -45997,7 +45997,7 @@
   {
     "slug": "村",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 1,
     "stroke_count": 7,
@@ -46063,7 +46063,7 @@
   {
     "slug": "他",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -46346,7 +46346,7 @@
   {
     "slug": "打",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -46425,7 +46425,7 @@
   {
     "slug": "体",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -46497,7 +46497,7 @@
   {
     "slug": "対",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -46623,7 +46623,7 @@
   {
     "slug": "待",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -46922,7 +46922,7 @@
   {
     "slug": "貸",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -46959,7 +46959,7 @@
   {
     "slug": "退",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 9,
@@ -47068,7 +47068,7 @@
   {
     "slug": "代",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -47143,7 +47143,7 @@
   {
     "slug": "台",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -47186,7 +47186,7 @@
   {
     "slug": "大",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -47228,7 +47228,7 @@
   {
     "slug": "第",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -47258,7 +47258,7 @@
   {
     "slug": "題",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 18,
@@ -47347,7 +47347,7 @@
   {
     "slug": "宅",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 6,
@@ -47658,7 +47658,7 @@
   {
     "slug": "達",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -47907,7 +47907,7 @@
   {
     "slug": "単",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -48012,7 +48012,7 @@
   {
     "slug": "探",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -48160,7 +48160,7 @@
   {
     "slug": "短",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -48502,7 +48502,7 @@
   {
     "slug": "断",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -48548,7 +48548,7 @@
   {
     "slug": "暖",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 13,
@@ -48593,7 +48593,7 @@
   {
     "slug": "段",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 9,
@@ -48624,7 +48624,7 @@
   {
     "slug": "男",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 7,
@@ -48661,7 +48661,7 @@
   {
     "slug": "談",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 15,
@@ -48687,7 +48687,7 @@
   {
     "slug": "値",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 10,
@@ -48722,7 +48722,7 @@
   {
     "slug": "知",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -48756,7 +48756,7 @@
   {
     "slug": "地",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -48786,7 +48786,7 @@
   {
     "slug": "恥",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -48828,7 +48828,7 @@
   {
     "slug": "池",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -48940,7 +48940,7 @@
   {
     "slug": "置",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 13,
@@ -49016,7 +49016,7 @@
   {
     "slug": "遅",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 12,
@@ -49257,7 +49257,7 @@
   {
     "slug": "茶",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -49316,7 +49316,7 @@
   {
     "slug": "着",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -49364,7 +49364,7 @@
   {
     "slug": "中",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -49435,7 +49435,7 @@
   {
     "slug": "宙",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 8,
@@ -49524,7 +49524,7 @@
   {
     "slug": "昼",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -49586,7 +49586,7 @@
   {
     "slug": "注",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -50069,7 +50069,7 @@
   {
     "slug": "張",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -50255,7 +50255,7 @@
   {
     "slug": "朝",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 12,
@@ -50324,7 +50324,7 @@
   {
     "slug": "町",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 7,
@@ -50465,7 +50465,7 @@
   {
     "slug": "調",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 15,
@@ -50595,7 +50595,7 @@
   {
     "slug": "長",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -50631,7 +50631,7 @@
   {
     "slug": "頂",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -50669,7 +50669,7 @@
   {
     "slug": "鳥",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -50763,7 +50763,7 @@
   {
     "slug": "直",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -50926,7 +50926,7 @@
   {
     "slug": "賃",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 13,
@@ -51131,7 +51131,7 @@
   {
     "slug": "追",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -51164,7 +51164,7 @@
   {
     "slug": "痛",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 12,
@@ -51208,7 +51208,7 @@
   {
     "slug": "通",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -51563,7 +51563,7 @@
   {
     "slug": "低",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -51761,7 +51761,7 @@
   {
     "slug": "定",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -51872,7 +51872,7 @@
   {
     "slug": "庭",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -51930,7 +51930,7 @@
   {
     "slug": "弟",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -52034,7 +52034,7 @@
   {
     "slug": "程",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -52508,7 +52508,7 @@
   {
     "slug": "適",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 14,
@@ -52769,7 +52769,7 @@
   {
     "slug": "天",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -52808,7 +52808,7 @@
   {
     "slug": "展",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 10,
@@ -52947,7 +52947,7 @@
   {
     "slug": "転",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -53006,7 +53006,7 @@
   {
     "slug": "点",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -53063,7 +53063,7 @@
   {
     "slug": "伝",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 6,
@@ -53165,7 +53165,7 @@
   {
     "slug": "田",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -53195,7 +53195,7 @@
   {
     "slug": "電",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 13,
@@ -53342,7 +53342,7 @@
   {
     "slug": "徒",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -53417,7 +53417,7 @@
   {
     "slug": "渡",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 12,
@@ -53461,7 +53461,7 @@
   {
     "slug": "登",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -53544,7 +53544,7 @@
   {
     "slug": "途",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -53611,7 +53611,7 @@
   {
     "slug": "努",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -53642,7 +53642,7 @@
   {
     "slug": "度",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -53688,7 +53688,7 @@
   {
     "slug": "土",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -53760,7 +53760,7 @@
   {
     "slug": "怒",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 9,
@@ -53798,7 +53798,7 @@
   {
     "slug": "倒",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -53886,7 +53886,7 @@
   {
     "slug": "冬",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -54114,7 +54114,7 @@
   {
     "slug": "投",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -54182,7 +54182,7 @@
   {
     "slug": "東",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -54274,7 +54274,7 @@
   {
     "slug": "盗",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 11,
@@ -54388,7 +54388,7 @@
   {
     "slug": "当",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -54466,7 +54466,7 @@
   {
     "slug": "等",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -54508,7 +54508,7 @@
   {
     "slug": "答",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 12,
@@ -54632,7 +54632,7 @@
   {
     "slug": "到",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 8,
@@ -54833,7 +54833,7 @@
   {
     "slug": "逃",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 9,
@@ -55107,7 +55107,7 @@
   {
     "slug": "動",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -55145,7 +55145,7 @@
   {
     "slug": "同",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -55176,7 +55176,7 @@
   {
     "slug": "堂",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -55529,7 +55529,7 @@
   {
     "slug": "得",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -55600,7 +55600,7 @@
   {
     "slug": "特",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -55718,7 +55718,7 @@
   {
     "slug": "独",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 9,
@@ -55754,7 +55754,7 @@
   {
     "slug": "読",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 14,
@@ -55850,7 +55850,7 @@
   {
     "slug": "突",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 8,
@@ -56207,7 +56207,7 @@
   {
     "slug": "内",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -56343,7 +56343,7 @@
   {
     "slug": "南",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -56409,7 +56409,7 @@
   {
     "slug": "難",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 18,
@@ -56462,7 +56462,7 @@
   {
     "slug": "二",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -56607,7 +56607,7 @@
   {
     "slug": "肉",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -56665,7 +56665,7 @@
   {
     "slug": "日",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -56743,7 +56743,7 @@
   {
     "slug": "入",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -56873,7 +56873,7 @@
   {
     "slug": "任",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 6,
@@ -56986,7 +56986,7 @@
   {
     "slug": "認",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 14,
@@ -57057,7 +57057,7 @@
   {
     "slug": "猫",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 11,
@@ -57086,7 +57086,7 @@
   {
     "slug": "熱",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 15,
@@ -57119,7 +57119,7 @@
   {
     "slug": "年",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -57149,7 +57149,7 @@
   {
     "slug": "念",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -57431,7 +57431,7 @@
   {
     "slug": "能",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -57656,7 +57656,7 @@
   {
     "slug": "破",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -57762,7 +57762,7 @@
   {
     "slug": "馬",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 10,
@@ -57927,7 +57927,7 @@
   {
     "slug": "敗",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 11,
@@ -57958,7 +57958,7 @@
   {
     "slug": "杯",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 8,
@@ -57990,7 +57990,7 @@
   {
     "slug": "背",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 9,
@@ -58107,7 +58107,7 @@
   {
     "slug": "配",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -58285,7 +58285,7 @@
   {
     "slug": "売",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -58501,7 +58501,7 @@
   {
     "slug": "白",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -58787,7 +58787,7 @@
   {
     "slug": "箱",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 15,
@@ -58920,7 +58920,7 @@
   {
     "slug": "八",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -58998,7 +58998,7 @@
   {
     "slug": "発",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -59053,7 +59053,7 @@
   {
     "slug": "髪",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 14,
@@ -59172,7 +59172,7 @@
   {
     "slug": "抜",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 7,
@@ -59300,7 +59300,7 @@
   {
     "slug": "判",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -59337,7 +59337,7 @@
   {
     "slug": "半",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -59370,7 +59370,7 @@
   {
     "slug": "反",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 4,
@@ -59657,7 +59657,7 @@
   {
     "slug": "犯",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 5,
@@ -59994,7 +59994,7 @@
   {
     "slug": "飯",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -60024,7 +60024,7 @@
   {
     "slug": "晩",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 12,
@@ -60050,7 +60050,7 @@
   {
     "slug": "番",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 12,
@@ -60180,7 +60180,7 @@
   {
     "slug": "否",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 7,
@@ -60248,7 +60248,7 @@
   {
     "slug": "彼",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 8,
@@ -60287,7 +60287,7 @@
   {
     "slug": "悲",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -60354,7 +60354,7 @@
   {
     "slug": "批",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 6,
     "stroke_count": 7,
@@ -60471,7 +60471,7 @@
   {
     "slug": "疲",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -60746,7 +60746,7 @@
   {
     "slug": "費",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -60821,7 +60821,7 @@
   {
     "slug": "非",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 8,
@@ -60854,7 +60854,7 @@
   {
     "slug": "飛",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -60893,7 +60893,7 @@
   {
     "slug": "備",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -61028,7 +61028,7 @@
   {
     "slug": "美",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -61180,7 +61180,7 @@
   {
     "slug": "必",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -61306,7 +61306,7 @@
   {
     "slug": "百",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -61371,7 +61371,7 @@
   {
     "slug": "標",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 4,
     "stroke_count": 15,
@@ -61513,7 +61513,7 @@
   {
     "slug": "表",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -61561,7 +61561,7 @@
   {
     "slug": "評",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -61625,7 +61625,7 @@
   {
     "slug": "病",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -61731,7 +61731,7 @@
   {
     "slug": "品",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -61799,7 +61799,7 @@
   {
     "slug": "貧",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -61928,7 +61928,7 @@
   {
     "slug": "瓶",
     "jlpt": [
-      "jlpt-n1"
+      "jlpt-n2"
     ],
     "grade": 8,
     "stroke_count": 11,
@@ -61966,7 +61966,7 @@
   {
     "slug": "不",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 4,
@@ -61999,7 +61999,7 @@
   {
     "slug": "付",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -62087,7 +62087,7 @@
   {
     "slug": "夫",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 4,
@@ -62129,7 +62129,7 @@
   {
     "slug": "婦",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -62161,7 +62161,7 @@
   {
     "slug": "富",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -62273,7 +62273,7 @@
   {
     "slug": "怖",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 8,
@@ -62423,7 +62423,7 @@
   {
     "slug": "浮",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -62466,7 +62466,7 @@
   {
     "slug": "父",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -62638,7 +62638,7 @@
   {
     "slug": "負",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -62888,7 +62888,7 @@
   {
     "slug": "舞",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 15,
@@ -62928,7 +62928,7 @@
   {
     "slug": "部",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -62994,7 +62994,7 @@
   {
     "slug": "風",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 9,
@@ -63162,7 +63162,7 @@
   {
     "slug": "服",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -63190,7 +63190,7 @@
   {
     "slug": "福",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 13,
@@ -63218,7 +63218,7 @@
   {
     "slug": "腹",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 13,
@@ -63318,7 +63318,7 @@
   {
     "slug": "払",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 5,
@@ -63439,7 +63439,7 @@
   {
     "slug": "物",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -63777,7 +63777,7 @@
   {
     "slug": "文",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -63821,7 +63821,7 @@
   {
     "slug": "聞",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 14,
@@ -64028,7 +64028,7 @@
   {
     "slug": "平",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -64248,7 +64248,7 @@
   {
     "slug": "閉",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -64320,7 +64320,7 @@
   {
     "slug": "米",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -64363,7 +64363,7 @@
   {
     "slug": "壁",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 8,
     "stroke_count": 16,
@@ -64432,7 +64432,7 @@
   {
     "slug": "別",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -64546,7 +64546,7 @@
   {
     "slug": "変",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -64701,7 +64701,7 @@
   {
     "slug": "返",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -64815,7 +64815,7 @@
   {
     "slug": "勉",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -64906,7 +64906,7 @@
   {
     "slug": "保",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 9,
@@ -64971,7 +64971,7 @@
   {
     "slug": "捕",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -65025,7 +65025,7 @@
   {
     "slug": "歩",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -65229,7 +65229,7 @@
   {
     "slug": "暮",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 14,
@@ -65267,7 +65267,7 @@
   {
     "slug": "母",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -65418,7 +65418,7 @@
   {
     "slug": "報",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 12,
@@ -65599,7 +65599,7 @@
   {
     "slug": "抱",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 8,
@@ -65638,7 +65638,7 @@
   {
     "slug": "放",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -65693,7 +65693,7 @@
   {
     "slug": "方",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -65732,7 +65732,7 @@
   {
     "slug": "法",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -65985,7 +65985,7 @@
   {
     "slug": "訪",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -66170,7 +66170,7 @@
   {
     "slug": "亡",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 3,
@@ -66398,7 +66398,7 @@
   {
     "slug": "忘",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 7,
@@ -66427,7 +66427,7 @@
   {
     "slug": "忙",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 6,
@@ -66553,7 +66553,7 @@
   {
     "slug": "望",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 11,
@@ -66928,7 +66928,7 @@
   {
     "slug": "北",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -67310,7 +67310,7 @@
   {
     "slug": "本",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 5,
@@ -67647,7 +67647,7 @@
   {
     "slug": "妹",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -67742,7 +67742,7 @@
   {
     "slug": "毎",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 6,
@@ -67932,7 +67932,7 @@
   {
     "slug": "末",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -68010,7 +68010,7 @@
   {
     "slug": "万",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 3,
@@ -68070,7 +68070,7 @@
   {
     "slug": "満",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 12,
@@ -68151,7 +68151,7 @@
   {
     "slug": "味",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -68185,7 +68185,7 @@
   {
     "slug": "未",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 5,
@@ -68455,7 +68455,7 @@
   {
     "slug": "眠",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -68490,7 +68490,7 @@
   {
     "slug": "務",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -68520,7 +68520,7 @@
   {
     "slug": "夢",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 13,
@@ -68704,7 +68704,7 @@
   {
     "slug": "娘",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 10,
@@ -68769,7 +68769,7 @@
   {
     "slug": "名",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 6,
@@ -68809,7 +68809,7 @@
   {
     "slug": "命",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -68847,7 +68847,7 @@
   {
     "slug": "明",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -68947,7 +68947,7 @@
   {
     "slug": "迷",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 9,
@@ -69007,7 +69007,7 @@
   {
     "slug": "鳴",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 2,
     "stroke_count": 14,
@@ -69153,7 +69153,7 @@
   {
     "slug": "面",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -69479,7 +69479,7 @@
   {
     "slug": "木",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -69639,7 +69639,7 @@
   {
     "slug": "戻",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 7,
@@ -69677,7 +69677,7 @@
   {
     "slug": "問",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 11,
@@ -69742,7 +69742,7 @@
   {
     "slug": "門",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -69806,7 +69806,7 @@
   {
     "slug": "夜",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 8,
@@ -69840,7 +69840,7 @@
   {
     "slug": "野",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -69984,7 +69984,7 @@
   {
     "slug": "役",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 7,
@@ -70019,7 +70019,7 @@
   {
     "slug": "約",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -70392,7 +70392,7 @@
   {
     "slug": "優",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 17,
@@ -70471,7 +70471,7 @@
   {
     "slug": "友",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 4,
@@ -70623,7 +70623,7 @@
   {
     "slug": "有",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -70737,7 +70737,7 @@
   {
     "slug": "由",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -70846,7 +70846,7 @@
   {
     "slug": "遊",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -70985,7 +70985,7 @@
   {
     "slug": "夕",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 3,
@@ -71014,7 +71014,7 @@
   {
     "slug": "予",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 4,
@@ -71050,7 +71050,7 @@
   {
     "slug": "余",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 7,
@@ -71095,7 +71095,7 @@
   {
     "slug": "与",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 3,
@@ -71283,7 +71283,7 @@
   {
     "slug": "容",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -71474,7 +71474,7 @@
   {
     "slug": "曜",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 18,
@@ -71499,7 +71499,7 @@
   {
     "slug": "様",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 14,
@@ -71540,7 +71540,7 @@
   {
     "slug": "洋",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 9,
@@ -71607,7 +71607,7 @@
   {
     "slug": "用",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 5,
@@ -71700,7 +71700,7 @@
   {
     "slug": "葉",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -71737,7 +71737,7 @@
   {
     "slug": "要",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 9,
@@ -71842,7 +71842,7 @@
   {
     "slug": "陽",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -71950,7 +71950,7 @@
   {
     "slug": "欲",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 11,
@@ -72180,7 +72180,7 @@
   {
     "slug": "来",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 7,
@@ -72241,7 +72241,7 @@
   {
     "slug": "頼",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 8,
     "stroke_count": 16,
@@ -72352,7 +72352,7 @@
   {
     "slug": "落",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 12,
@@ -72665,7 +72665,7 @@
   {
     "slug": "利",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -72785,7 +72785,7 @@
   {
     "slug": "理",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 2,
     "stroke_count": 11,
@@ -73046,7 +73046,7 @@
   {
     "slug": "率",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n1"
     ],
     "grade": 5,
     "stroke_count": 11,
@@ -73220,7 +73220,7 @@
   {
     "slug": "流",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -73268,7 +73268,7 @@
   {
     "slug": "留",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 5,
     "stroke_count": 10,
@@ -73516,7 +73516,7 @@
   {
     "slug": "旅",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 3,
     "stroke_count": 10,
@@ -73638,7 +73638,7 @@
   {
     "slug": "両",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -73702,7 +73702,7 @@
   {
     "slug": "料",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -73904,7 +73904,7 @@
   {
     "slug": "良",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -74047,7 +74047,7 @@
   {
     "slug": "力",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n4"
     ],
     "grade": 1,
     "stroke_count": 2,
@@ -74175,7 +74175,7 @@
   {
     "slug": "林",
     "jlpt": [
-      "jlpt-n3"
+      "jlpt-n2"
     ],
     "grade": 1,
     "stroke_count": 8,
@@ -74439,7 +74439,7 @@
   {
     "slug": "類",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 18,
@@ -74501,7 +74501,7 @@
   {
     "slug": "例",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 8,
@@ -74533,7 +74533,7 @@
   {
     "slug": "冷",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -74627,7 +74627,7 @@
   {
     "slug": "礼",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 5,
@@ -74940,7 +74940,7 @@
   {
     "slug": "列",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 6,
@@ -75193,7 +75193,7 @@
   {
     "slug": "連",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 10,
@@ -75370,7 +75370,7 @@
   {
     "slug": "路",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 13,
@@ -75446,7 +75446,7 @@
   {
     "slug": "労",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 7,
@@ -75715,7 +75715,7 @@
   {
     "slug": "老",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 4,
     "stroke_count": 6,
@@ -75784,7 +75784,7 @@
   {
     "slug": "六",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 1,
     "stroke_count": 4,
@@ -75889,7 +75889,7 @@
   {
     "slug": "論",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 6,
     "stroke_count": 15,
@@ -75919,7 +75919,7 @@
   {
     "slug": "和",
     "jlpt": [
-      "jlpt-n2"
+      "jlpt-n3"
     ],
     "grade": 3,
     "stroke_count": 8,
@@ -75976,7 +75976,7 @@
   {
     "slug": "話",
     "jlpt": [
-      "jlpt-n4"
+      "jlpt-n5"
     ],
     "grade": 2,
     "stroke_count": 13,
