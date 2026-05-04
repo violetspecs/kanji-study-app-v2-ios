@@ -75,7 +75,7 @@ ContentView (TabView)
 │   ├── FilterSelectionView
 │   │   ├── StudyMode picker (Kanji→Meaning / Meaning→Kanji)
 │   │   ├── KanjiPerSession picker (20/30/40/50)
-│   │   └── Grade / JLPT filter chips
+│   │   └── Grade / JLPT filter chips (All + individual levels; All selected by default)
 │   ├── FlashcardView
 │   │   ├── Prompt card (kanji+readings OR meaning text)
 │   │   ├── 4× AnswerButton

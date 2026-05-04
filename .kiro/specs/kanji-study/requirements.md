@@ -18,6 +18,7 @@ Users can choose a study mode before starting a session:
 
 Each option displays up to 3 meanings joined by ", " for the Kanji → Meaning mode.
 Can filter to show only kanji from a specific grade or JLPT level (multi-select).
+An **All** chip is shown at the start of each filter row and is selected by default. If all specific filters are deselected, **All** is automatically re-selected.
 Session size is configurable (20, 30, 40, 50 kanji per session) via the filter selection screen.
 A **Quit** button is available during a session; tapping it shows a warning that progress will not be saved. Confirming returns to the filter selection screen without saving SRS updates.
 SRS updates and session history are only saved when a session is completed in full.

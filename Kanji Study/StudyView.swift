@@ -46,6 +46,7 @@ struct FilterSelectionView: View {
     var onStart: ([Kanji], StudyMode) -> Void
 
     @State private var selectedFilters: Set<KanjiFilter> = []
+    @State private var allSelected: Bool = true
     @State private var studyMode: StudyMode = .kanjiToMeaning
     @AppStorage("kanjiPerSession") private var kanjiPerSession: Int = 20
 
@@ -54,7 +55,7 @@ struct FilterSelectionView: View {
     private let sessionOptions = [20, 30, 40, 50]
 
     private var pool: [Kanji] {
-        store.kanji(matching: Array(selectedFilters))
+        allSelected ? store.allKanji : store.kanji(matching: Array(selectedFilters))
     }
 
     var body: some View {
@@ -86,13 +87,12 @@ struct FilterSelectionView: View {
             Section {
                 Button {
                     var deck = pool
-                    if deck.isEmpty { deck = store.allKanji }
                     deck.shuffle()
                     onStart(Array(deck.prefix(kanjiPerSession)), studyMode)
                 } label: {
                     HStack {
                         Spacer()
-                        Text("Start Session (\(min(kanjiPerSession, max(pool.count, store.allKanji.count))) kanji)")
+                        Text("Start Session (\(min(kanjiPerSession, pool.count)) kanji)")
                             .bold()
                         Spacer()
                     }
@@ -107,11 +107,29 @@ struct FilterSelectionView: View {
     private func filterGrid(filters: [KanjiFilter], labels: [String]) -> some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
+                // All chip
+                Button {
+                    selectedFilters.removeAll()
+                    allSelected = true
+                } label: {
+                    Text("All")
+                        .font(.caption)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 6)
+                        .background(allSelected ? Color.accentColor : Color(.systemGray5))
+                        .foregroundColor(allSelected ? .white : .primary)
+                        .cornerRadius(14)
+                }
+
                 ForEach(Array(zip(filters, labels)), id: \.0) { filter, label in
                     let selected = selectedFilters.contains(filter)
                     Button {
                         if selected { selectedFilters.remove(filter) }
-                        else { selectedFilters.insert(filter) }
+                        else {
+                            selectedFilters.insert(filter)
+                            allSelected = false
+                        }
+                        if selectedFilters.isEmpty { allSelected = true }
                     } label: {
                         Text(label)
                             .font(.caption)
