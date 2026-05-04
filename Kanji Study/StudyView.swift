@@ -15,7 +15,7 @@ struct StudyView: View {
 
     enum StudyPhase {
         case filter
-        case session([Kanji], StudyMode)
+        case session([Kanji], [Kanji], StudyMode)  // deck, pool, mode
         case summary(correct: Int, total: Int)
     }
 
@@ -23,11 +23,11 @@ struct StudyView: View {
         NavigationView {
             switch phase {
             case .filter:
-                FilterSelectionView { kanji, mode in
-                    phase = .session(kanji, mode)
+                FilterSelectionView { deck, pool, mode in
+                    phase = .session(deck, pool, mode)
                 }
-            case .session(let kanji, let mode):
-                FlashcardView(deck: kanji, mode: mode, onQuit: { phase = .filter }) { correct, total in
+            case .session(let deck, let pool, let mode):
+                FlashcardView(deck: deck, pool: pool, mode: mode, onQuit: { phase = .filter }) { correct, total in
                     phase = .summary(correct: correct, total: total)
                 }
             case .summary(let correct, let total):
@@ -43,7 +43,7 @@ struct StudyView: View {
 
 struct FilterSelectionView: View {
     @EnvironmentObject var store: KanjiStore
-    var onStart: ([Kanji], StudyMode) -> Void
+    var onStart: ([Kanji], [Kanji], StudyMode) -> Void
 
     @State private var selectedFilters: Set<KanjiFilter> = []
     @State private var allSelected: Bool = true
@@ -88,7 +88,7 @@ struct FilterSelectionView: View {
                 Button {
                     var deck = pool
                     deck.shuffle()
-                    onStart(Array(deck.prefix(kanjiPerSession)), studyMode)
+                    onStart(Array(deck.prefix(kanjiPerSession)), pool, studyMode)
                 } label: {
                     HStack {
                         Spacer()
@@ -150,6 +150,7 @@ struct FilterSelectionView: View {
 struct FlashcardView: View {
     @EnvironmentObject var store: KanjiStore
     let deck: [Kanji]
+    let pool: [Kanji]
     let mode: StudyMode
     var onQuit: () -> Void
     var onFinish: (Int, Int) -> Void
@@ -292,9 +293,16 @@ struct FlashcardView: View {
     }
 
     private func buildOptions() {
-        var pool = store.allKanji.filter { $0.character != current.character }
-        pool.shuffle()
-        var opts = Array(pool.prefix(3))
+        var distractors = pool.filter { $0.character != current.character }
+        distractors.shuffle()
+        var opts = Array(distractors.prefix(3))
+        // Pad from allKanji if pool is too small
+        if opts.count < 3 {
+            let extra = store.allKanji
+                .filter { k in k.character != current.character && !opts.contains(where: { $0.character == k.character }) }
+                .prefix(3 - opts.count)
+            opts.append(contentsOf: extra)
+        }
         opts.append(current)
         opts.shuffle()
         options = opts

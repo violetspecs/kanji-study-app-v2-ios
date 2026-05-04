@@ -26,6 +26,7 @@
 - [x] Build `FilterSelectionView` (study mode picker + multi-select grade/JLPT + session size)
 - [x] Add "All" chip to filter rows (selected by default; auto-reverts when all filters deselected)
 - [x] Build `FlashcardView` — Kanji → Meaning mode (kanji + readings prompt, 4 meaning options)
+- [x] Draw wrong options from full filtered pool (not session deck) for accurate level-matched distractors
 - [x] Add Meaning → Kanji mode (meaning prompt, 4 kanji options with character + readings)
 - [x] Show up to 3 meanings per option joined by ", "
 - [x] Kanji character in answer buttons uses Dynamic Type (`.largeTitle`)

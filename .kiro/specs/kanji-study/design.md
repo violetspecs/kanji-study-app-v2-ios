@@ -99,6 +99,7 @@ ContentView (TabView)
 - **KANJIDIC2 as data source**: A Python script (`scripts/build_kanji_json.py`) converts KANJIDIC2 XML to `kanji.json` at build time. The app never makes network requests for kanji data.
 - **JishoEntry-compatible JSON schema**: `kanji.json` uses the same structure as the previous Jisho API responses, extended with `grade` and `stroke_count` fields, so `KanjiStore` decoding required minimal changes.
 - **Two study modes**: `StudyMode` enum drives `FlashcardView` to either show kanji→meaning or meaning→kanji layout. Options are always `[Kanji]` objects; display label is derived via `optionLabel(_:)`.
+- **Distractor pool**: `FilterSelectionView` passes the full filtered pool separately from the session deck to `FlashcardView`. Wrong options are drawn from this pool so distractors match the selected JLPT/grade level and aren't limited to the session size.
 - **Deferred SRS writes**: SRS updates are buffered in `srsResults` during a session and only flushed to Core Data on full completion. Quitting discards the buffer.
 - **Generic `AnswerButton`**: Uses a `@ViewBuilder` label closure so both plain text (kanji→meaning) and structured kanji+readings layouts (meaning→kanji) share the same button chrome.
 - **SRS export/import**: Exports only the 5 SRS fields per kanji to a timestamped JSON file. Import matches by character and updates only SRS fields, leaving kanji data intact.

@@ -16,6 +16,8 @@ Users can choose a study mode before starting a session:
 - **Kanji → Meaning**: kanji character and readings are shown; user selects the correct English meaning from 4 options
 - **Meaning → Kanji**: English meaning is shown; user selects the correct kanji from 4 options (each option displays the kanji in large text with on'yomi and kun'yomi on separate lines below)
 
+The 3 wrong options are drawn from the **full filtered pool** (all kanji matching the selected filters), not just the session deck. Falls back to `allKanji` if the pool has fewer than 4 kanji.
+
 Each option displays up to 3 meanings joined by ", " for the Kanji → Meaning mode.
 Can filter to show only kanji from a specific grade or JLPT level (multi-select).
 An **All** chip is shown at the start of each filter row and is selected by default. If all specific filters are deselected, **All** is automatically re-selected.
