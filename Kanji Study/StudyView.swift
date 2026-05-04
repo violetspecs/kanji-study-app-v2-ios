@@ -191,7 +191,7 @@ struct FlashcardView: View {
         if isCorrect { correctCount += 1 }
         store.updateSRS(kanjiCharacter: current.character, correct: isCorrect)
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
             advance()
         }
     }
