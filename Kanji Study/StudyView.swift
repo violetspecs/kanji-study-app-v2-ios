@@ -208,17 +208,19 @@ struct FlashcardView: View {
                             VStack(spacing: 2) {
                                 Text(option.character)
                                     .font(.system(.largeTitle))
-                                if !option.onyomi.isEmpty {
-                                    Text(option.onyomi.joined(separator: "、"))
-                                        .font(.caption)
-                                        .lineLimit(1)
-                                        .minimumScaleFactor(0.7)
-                                }
-                                if !option.kunyomi.isEmpty {
-                                    Text(option.kunyomi.joined(separator: "、"))
-                                        .font(.caption)
-                                        .lineLimit(1)
-                                        .minimumScaleFactor(0.7)
+                                if !hideReadings {
+                                    if !option.onyomi.isEmpty {
+                                        Text(option.onyomi.joined(separator: "、"))
+                                            .font(.caption)
+                                            .lineLimit(1)
+                                            .minimumScaleFactor(0.7)
+                                    }
+                                    if !option.kunyomi.isEmpty {
+                                        Text(option.kunyomi.joined(separator: "、"))
+                                            .font(.caption)
+                                            .lineLimit(1)
+                                            .minimumScaleFactor(0.7)
+                                    }
                                 }
                             }
                         } else {

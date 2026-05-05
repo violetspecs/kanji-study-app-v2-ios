@@ -19,6 +19,7 @@
 ## Phase 2: Browse
 
 - [x] Build `BrowseView` with kanji list and filter chips
+- [x] Add search bar (filters by character, meaning, on'yomi, kun'yomi)
 - [x] Build `KanjiDetailView` (character, meanings, on'yomi, kun'yomi, stroke count)
 
 ## Phase 3: Study Mode
@@ -28,6 +29,7 @@
 - [x] Build `FlashcardView` — Kanji → Meaning mode (kanji + readings prompt, 4 meaning options)
 - [x] Draw wrong options from full filtered pool (not session deck) for accurate level-matched distractors
 - [x] Add Meaning → Kanji mode (meaning prompt, 4 kanji options with character + readings)
+- [x] Fix text overflow in meaning→kanji mode (minimumScaleFactor + lineLimit on prompt and buttons)
 - [x] Show up to 3 meanings per option joined by ", "
 - [x] Kanji character in answer buttons uses Dynamic Type (`.largeTitle`)
 - [x] Reduce flashcard transition delay to 0.2s
@@ -45,6 +47,7 @@
 ## Phase 5: Settings
 
 - [x] Kanji loaded count
+- [x] Hide readings during study toggle (applies to prompt card and answer buttons)
 - [x] SRS Progress export / import
 - [ ] Reset SRS progress option
 

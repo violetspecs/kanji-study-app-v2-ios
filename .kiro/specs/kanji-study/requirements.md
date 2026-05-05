@@ -9,6 +9,7 @@ Kanji Study is an iOS app for learning and practicing Japanese kanji characters 
 ### 1. Kanji Browsing
 Browse mode allows the user to select from a list of kanji.
 Can be filtered based on Grade level (Grade 1–8, including Jinmei) or JLPT level (N1–N5).
+A search bar filters the list by kanji character, English meaning, on'yomi, or kun'yomi.
 Selecting one displays information about the kanji.
 
 ### 2. Study / Flashcard Mode
@@ -31,6 +32,7 @@ Progress view shows cards due, studied count, and upcoming reviews.
 
 ### 4. Settings
 - Kanji loaded count (read-only)
+- **Hide readings during study**: toggle that hides on'yomi/kun'yomi in the kanji→meaning prompt card and in the meaning→kanji answer buttons
 - **Export SRS Progress**: exports a JSON file named `srs_progress_<timestamp>.json` containing per-kanji SRS state
 - **Import SRS Progress**: imports a previously exported JSON file and restores SRS state for matching kanji
 
