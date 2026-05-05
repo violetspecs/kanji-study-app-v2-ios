@@ -4,9 +4,18 @@ struct BrowseView: View {
     @EnvironmentObject var store: KanjiStore
     @State private var selectedFilters: Set<KanjiFilter> = []
     @State private var selectedKanji: Kanji?
+    @State private var searchText: String = ""
 
     private var displayed: [Kanji] {
-        store.kanji(matching: Array(selectedFilters))
+        let filtered = store.kanji(matching: Array(selectedFilters))
+        guard !searchText.isEmpty else { return filtered }
+        let q = searchText.lowercased()
+        return filtered.filter {
+            $0.character.contains(searchText) ||
+            $0.meanings.joined().lowercased().contains(q) ||
+            $0.onyomi.joined().contains(searchText) ||
+            $0.kunyomi.joined().contains(searchText)
+        }
     }
 
     var body: some View {
@@ -51,6 +60,7 @@ struct BrowseView: View {
                 }
             }
             .navigationTitle("Browse")
+            .searchable(text: $searchText, prompt: "Search kanji, meaning, reading")
             .sheet(item: $selectedKanji) { kanji in
                 KanjiDetailView(kanji: kanji)
             }

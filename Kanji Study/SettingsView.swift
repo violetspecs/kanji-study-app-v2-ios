@@ -3,6 +3,7 @@ import UniformTypeIdentifiers
 
 struct SettingsView: View {
     @AppStorage("kanjiPerSession") private var kanjiPerSession: Int = 20
+    @AppStorage("hideReadings") private var hideReadings: Bool = false
     @EnvironmentObject var store: KanjiStore
     @State private var showResetConfirm = false
     @State private var exportURL: URL?
@@ -14,7 +15,12 @@ struct SettingsView: View {
 
     var body: some View {
         NavigationView {
-            Form {                Section("Data") {
+            Form {
+                Section("Study") {
+                    Toggle("Hide readings during study", isOn: $hideReadings)
+                }
+
+                Section("Data") {
                     HStack {
                         Text("Kanji loaded")
                         Spacer()

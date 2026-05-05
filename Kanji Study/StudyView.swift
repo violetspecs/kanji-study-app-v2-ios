@@ -161,6 +161,7 @@ struct FlashcardView: View {
     @State private var correctCount = 0
     @State private var showQuitAlert = false
     @State private var srsResults: [(character: String, correct: Bool)] = []
+    @AppStorage("hideReadings") private var hideReadings: Bool = false
 
     private var current: Kanji { deck[index] }
 
@@ -175,18 +176,22 @@ struct FlashcardView: View {
                 if mode == .kanjiToMeaning {
                     Text(current.character)
                         .font(.system(size: 96))
-                    if !current.onyomi.isEmpty {
-                        Text(current.onyomi.joined(separator: "、"))
-                            .font(.title3).foregroundColor(.secondary)
-                    }
-                    if !current.kunyomi.isEmpty {
-                        Text(current.kunyomi.joined(separator: "、"))
-                            .font(.title3).foregroundColor(.secondary)
+                    if !hideReadings {
+                        if !current.onyomi.isEmpty {
+                            Text(current.onyomi.joined(separator: "、"))
+                                .font(.title3).foregroundColor(.secondary)
+                        }
+                        if !current.kunyomi.isEmpty {
+                            Text(current.kunyomi.joined(separator: "、"))
+                                .font(.title3).foregroundColor(.secondary)
+                        }
                     }
                 } else {
                     Text(current.meanings.prefix(3).joined(separator: ", "))
                         .font(.title2).bold()
                         .multilineTextAlignment(.center)
+                        .minimumScaleFactor(0.6)
+                        .lineLimit(4)
                 }
             }
             .frame(maxWidth: .infinity)
@@ -206,10 +211,14 @@ struct FlashcardView: View {
                                 if !option.onyomi.isEmpty {
                                     Text(option.onyomi.joined(separator: "、"))
                                         .font(.caption)
+                                        .lineLimit(1)
+                                        .minimumScaleFactor(0.7)
                                 }
                                 if !option.kunyomi.isEmpty {
                                     Text(option.kunyomi.joined(separator: "、"))
                                         .font(.caption)
+                                        .lineLimit(1)
+                                        .minimumScaleFactor(0.7)
                                 }
                             }
                         } else {
